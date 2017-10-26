@@ -58,12 +58,29 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Agregar.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="jquery-ui\AUTHORS.txt" />
+    <Content Include="jquery-ui\external\jquery\jquery.js" />
+    <Content Include="jquery-ui\images\ui-icons_444444_256x240.png" />
+    <Content Include="jquery-ui\images\ui-icons_555555_256x240.png" />
+    <Content Include="jquery-ui\images\ui-icons_777620_256x240.png" />
+    <Content Include="jquery-ui\images\ui-icons_777777_256x240.png" />
+    <Content Include="jquery-ui\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="jquery-ui\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="jquery-ui\index.html" />
+    <Content Include="jquery-ui\jquery-ui.css" />
+    <Content Include="jquery-ui\jquery-ui.js" />
+    <Content Include="jquery-ui\jquery-ui.min.css" />
+    <Content Include="jquery-ui\jquery-ui.min.js" />
+    <Content Include="jquery-ui\jquery-ui.structure.css" />
+    <Content Include="jquery-ui\jquery-ui.structure.min.css" />
+    <Content Include="jquery-ui\jquery-ui.theme.css" />
+    <Content Include="jquery-ui\jquery-ui.theme.min.css" />
+    <Content Include="jquery-ui\LICENSE.txt" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -73,6 +90,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="jquery-ui\package.json" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Personas.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -83,13 +101,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agregar.aspx.cs">
-      <DependentUpon>Agregar.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Agregar.aspx.designer.cs">
-      <DependentUpon>Agregar.aspx</DependentUpon>
-    </Compile>
+    <Compile Include="Modelo\Direccion.cs" />
+    <Compile Include="Modelo\Persona.cs" />
     <Compile Include="Personas.aspx.cs">
       <DependentUpon>Personas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
