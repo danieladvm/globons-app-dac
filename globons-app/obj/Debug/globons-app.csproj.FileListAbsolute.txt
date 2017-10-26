@@ -1,0 +1,6 @@
+C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-app\bin\globons-app.dll.config
+C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-app\bin\globons-app.dll
+C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-app\bin\globons-app.pdb
+C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-app\obj\Debug\globons-app.csprojResolveAssemblyReference.cache
+C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-app\obj\Debug\globons-app.dll
+C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-app\obj\Debug\globons-app.pdb
