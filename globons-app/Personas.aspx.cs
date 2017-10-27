@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.Services;
+using Newtonsoft.Json;
 
 namespace globons_app
 {
@@ -12,7 +13,11 @@ namespace globons_app
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            /*
+            http://1000hz.github.io/bootstrap-validator/
+            http://jqueryui.com/datepicker/
+            https://getbootstrap.com/docs/3.3/javascript/#modals
+            */
         }
 
         [WebMethod(EnableSession = true)]
@@ -36,6 +41,9 @@ namespace globons_app
                 tabla += "<td>Nro documento " + i + "</td>";
                 tabla += "<td>Fecha nacimiento " + i + "</td>";
                 tabla += "<td>";
+                tabla += "<button class='editar-persona btn btn-default' name='action' data-id='" + i + "'>";
+                tabla += "<span class='glyphicon glyphicon-pencil'></span>";
+                tabla += "</button>";
                 tabla += "<button class='borrar-persona btn btn-default' name='action' data-id='" + i + "'>";
                 tabla += "<span class='glyphicon glyphicon-remove'></span>";
                 tabla += "</button>";
@@ -46,6 +54,13 @@ namespace globons_app
             tabla += "</table>";
 
             return tabla;
+        }
+
+        [WebMethod(EnableSession = true)]
+        public static string GetPersona(string idPersona)
+        {
+
+            return JsonConvert.SerializeObject("ObjetoPersona");
         }
 
         [WebMethod(EnableSession = true)]
@@ -63,3 +78,4 @@ namespace globons_app
         }
     }
 }
+ 

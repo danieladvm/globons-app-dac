@@ -8,10 +8,13 @@
 
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="Scripts/modal.js"></script>
+    <script src="Scripts/validator.min.js"></script>
     <script src="Scripts/script.js"></script>
 
     <title></title>

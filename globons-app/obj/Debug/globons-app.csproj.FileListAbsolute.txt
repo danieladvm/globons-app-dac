@@ -4,3 +4,5 @@ C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-a
 C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-app\obj\Debug\globons-app.csprojResolveAssemblyReference.cache
 C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-app\obj\Debug\globons-app.dll
 C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-app\obj\Debug\globons-app.pdb
+C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-app\bin\Newtonsoft.Json.dll
+C:\Users\dmohamed.DAC0\Downloads\Universidad\Nueva carpeta\globons-app\globons-app\bin\Newtonsoft.Json.xml
